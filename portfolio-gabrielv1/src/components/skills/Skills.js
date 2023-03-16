@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
-import img from '../../images/java-logo.png'
 
 const Skills = () => {
   return (
@@ -8,15 +7,15 @@ const Skills = () => {
 
       <h1>Skills</h1>
 
-      <Image src={img} 
-             alt='' 
-             roundedCircle
-             width={100}
-             height={100}
-             >
-
-             </Image>
-
+      <Image src={require('../../images/java-logo.png')} alt='' roundedCircle width={100} height={100} />
+      <Image src={require('../../images/react-logo.png')} alt='' roundedCircle width={100} height={100} />
+      <Image src={require('../../images/springboot-logo.png')} alt='' roundedCircle width={100} height={100} />
+      <Image src={require('../../images/aws-logo.png')} alt='' roundedCircle width={100} height={100} />
+      <Image src={require('../../images/mysql-logo.png')} alt='' roundedCircle width={100} height={100} />
+      <Image src={require('../../images/html-logo.png')} alt='' roundedCircle width={100} height={100} />
+      <Image src={require('../../images/css-logo.png')} alt='' roundedCircle width={100} height={100} />
+      <Image src={require('../../images/js-logo.png')} alt='' roundedCircle width={100} height={100} />
+      <Image src={require('../../images/git-logo.png')} alt='' roundedCircle width={100} height={100} />
       
     </div>
   )
