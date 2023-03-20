@@ -6,7 +6,7 @@ const About = () => {
       <h1>About</h1>
 
       <p>
-        An aspiring Full-Stack Software Developer open to relocating to anywhere in California.
+        An aspiring <b>Full-Stack Software Developer</b> open to relocating to anywhere in California.
       </p>
     </div>
   )

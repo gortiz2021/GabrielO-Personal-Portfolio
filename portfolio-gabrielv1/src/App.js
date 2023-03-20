@@ -6,7 +6,7 @@ import Contact from './components/contact/Contact';
 import NavBar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
-import Testimonials from './components/testimonials/Testimonials';
+// import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       </div>
     </main>
