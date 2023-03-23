@@ -26,9 +26,11 @@ const Contact = () => {
         <Form.Label>Password</Form.Label>
         <Form.Control type="message" placeholder="Message" />
       </Form.Group>
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
+      <div className="d-grid gap-2">
+        <Button variant="dark" type="submit" size='lg'>
+          Submit
+        </Button>
+      </div>
     </Form>
 
     </div>

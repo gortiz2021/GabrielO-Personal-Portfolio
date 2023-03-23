@@ -1,6 +1,7 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import Layout from './components/Layout';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import NavBar from './components/navbar/Navbar';
@@ -10,16 +11,13 @@ import Skills from './components/skills/Skills';
 
 function App() {
   return (
-    <main>
       <div className="App">
         <NavBar /> 
         <About />
         <Skills />
         <Projects />
-        {/* <Testimonials /> */}
-        <Contact />
+        <Contact /> 
       </div>
-    </main>
   );
 }
 
