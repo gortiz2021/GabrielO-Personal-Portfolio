@@ -1,7 +1,6 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Layout from './components/Layout';
+// import Layout from './components/Layout';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import NavBar from './components/navbar/Navbar';
@@ -12,11 +11,14 @@ import Skills from './components/skills/Skills';
 function App() {
   return (
       <div className="App">
-        <NavBar /> 
-        <About />
-        <Skills />
-        <Projects />
-        <Contact /> 
+        <NavBar />
+        <div className='mt-5'>
+          <About />
+          <Skills />
+          <Projects />
+          <Contact /> 
+        </div> 
+        
       </div>
   );
 }

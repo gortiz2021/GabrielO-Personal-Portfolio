@@ -4,7 +4,7 @@ import Image from 'react-bootstrap/esm/Image'
 
 const Projects = () => {
   return (
-    <div className='project-container'>
+    <div className='project-container' id='projects'>
       <h1>Projects</h1>
 
       <div className='project-block'>

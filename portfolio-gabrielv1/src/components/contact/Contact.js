@@ -13,6 +13,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    //console.log(e.target.elements.name.value)
     emailjs
       .sendForm(
         'service_k4flyeu', 
@@ -23,6 +24,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text)
+          
           alert('Message sent successfully!')
         },
         (error) => {
@@ -38,7 +40,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id='contact'>
 
       <h1>Contact</h1>
 
