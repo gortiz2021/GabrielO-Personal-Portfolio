@@ -7,7 +7,11 @@
 .project-detail {
    display: flex;
    justify-content: space-around;
-   padding: 10px 10px, 25px, 10px;
+   padding-top: 20px;
+}
+
+.project-container {
+    margin: 10px 10%;
 }
 
 .project-container h1 {
@@ -18,6 +22,26 @@
 }
 
 .project-text {
-    width: 500px;
-    height: 100px;
+    width: 40%;
+    font-size: large;
+    line-height: 40px;
+}
+.project-image {
+    margin: 10px;
+    width: 30%;
+    height: 30%;
+}
+.project-item {
+    padding: 20px
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container{
+        margin: 10px 10%;
+    }
+
+    .project-image {
+        width: 50%;
+        height: 50%
+    }
 }
