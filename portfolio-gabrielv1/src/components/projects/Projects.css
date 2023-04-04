@@ -32,6 +32,11 @@
         }
     }
 
+.project-item h3 {
+    text-shadow: -3px 3px 5px #E1D9D1;
+    padding-bottom: 20px;
+}
+
 .project-text {
     width: 40%;
     font-size: large;
